@@ -14,7 +14,7 @@ function getPosts() {
 }
 
 // createPost is a callback function which is called after
-// 2 seconds of getPosts function call and it will add a new post to the posts array
+// 2 seconds of getPosts function call and it will add a new post to the posts array []
 // and then call the getPosts function again to display
 // the updated posts array on the screen with the new post added to it.
 function createPost(post, callback) {
